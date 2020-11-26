@@ -12,7 +12,7 @@ i = 0
 
 while i < n
   num1 = Random.rand(1..13)
-  pint1 = ['A', 'B', 'C', 'D'].sample(1)
+  pint1 = ['C', 'D', 'E', 'T'].sample(1)
   n1 = Carta.new(num1, pint1)
   array_card.push n1
   i += 1
